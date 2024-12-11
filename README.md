@@ -7,3 +7,7 @@ The script is written in Python and creates a report with the word count from a 
 Please check it out if you have some time.
 
 Thanks for reviewing! 😄
+
+## Screenshot of Report
+
+![Screenshot of Report](print-report.png?raw=true)
