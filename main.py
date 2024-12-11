@@ -1,5 +1,5 @@
 def main():
-    path = "./books/frankenstein.txt"
+    path = "./books/frankenstein-ebook.txt"
     word = read_book(path)
     content = count_content(word)
     letters = count_letters(word)
@@ -46,6 +46,6 @@ def generate_char_data(letters):
 
 def compile_report(content, char_data):
     # Takes the word count and the character frequency data as input, and compiles the final report string
-    return f"--- Begin report of books/frankenstein.txt ---\n{content} content found in the document\n\n{char_data}--- End report ---"
+    return f"--- Begin report of books/frankenstein-ebook.txt ---\n{content} content found in the document\n\n{char_data}--- End report ---"
 
 main()
